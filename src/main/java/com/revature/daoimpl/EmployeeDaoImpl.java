@@ -9,7 +9,7 @@ import com.revature.model.Employee;
 public class EmployeeDaoImpl implements EmployeeDao {
 
 	@Override
-	public void initForm(int id) throws SQLException {
+	public void startForm(int employeeId) throws SQLException {
 		// TODO Auto-generated method stub
 		
 	}
@@ -21,7 +21,7 @@ public class EmployeeDaoImpl implements EmployeeDao {
 	}
 
 	@Override
-	public Employee getEmployee(int id) throws SQLException {
+	public Employee getEmployee(int employeeId) throws SQLException {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -33,9 +33,10 @@ public class EmployeeDaoImpl implements EmployeeDao {
 	}
 
 	@Override
-	public List<Employee> getSubordinates(int id) throws SQLException {
+	public List<Employee> getSubordinates(int employeeId) throws SQLException {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
+	
 }
